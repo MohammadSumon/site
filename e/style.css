@@ -1,0 +1,624 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.division{
+    padding: 3% 0%;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-title h2 {
+    font-size: 46px;
+    margin-bottom: 18px;
+}
+
+.section-title p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/*-----navigationMenu-----*/
+.navigation-menu{
+    width: 100%;
+    height: 100vh;
+    background: #d6daf3;
+}
+
+a.logo {
+    width: 150px;
+    margin-left: 15px;
+}
+
+span.menu-icon {
+    font-size: 22px;
+    color: blue;
+}
+
+ul.navbar-nav {
+    margin-left: 520px;
+}
+
+a.nav-link {
+    color: black !important;
+    font-size: 20px;
+    transition: 0.8s;
+}
+
+a.nav-link:hover {
+    color: green !important;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    cursor: pointer;
+}
+
+nav.navbar.navbar-expand-lg{
+    box-shadow: 0px 6px #bebfc9;
+    background-color: #d0d4f1;
+}
+
+
+.col-lg-6.col-md-6.col-sm-10.left {
+    margin-top: 152px;
+}
+
+.col-lg-6.col-md-6.col-sm-10.right {
+    margin-top: 152px;
+}
+
+h1.on-pro {
+    color: green;
+    font-weight: 600;
+}
+
+span.small {
+    color: #787878;
+}
+
+.check {
+    display: block !important;
+    margin-top: 24px;
+    background: yellow !important;
+    width: 100px;
+    transition: 0.8s;
+    margin-left: 30px;
+}
+
+.check:hover {
+    background: blue;
+}
+
+a.btn.fresh {
+    background: #D5BAC1;
+    margin-top: 130px;
+    margin-left: 17px;
+}
+
+a.btn.online {
+    background: #A9C49F;
+    margin-top: 130px;
+    margin-left: 17px;
+}
+
+a.btn.smaeMoney {
+    background: #AFC2CC;
+    margin-top: 130px;
+    margin-left: 17px;
+}
+
+a.btn.Prpmotions {
+    background: #ABAFCF;
+    margin-top: 130px;
+    margin-left: 17px;
+}
+
+a.btn.h-shoping {
+    background: #D1B9D2;
+    margin-top: 130px;
+    margin-left: 17px;
+}
+
+a.btn.support {
+    background: #D3C9BE;
+    margin-top: 130px;
+    margin-left: 61px;
+}
+
+
+.col-lg-2.col-md-4.col-sm-6.fresh {
+    height: 180px;
+    background: url(img/features/f1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.col-lg-2.col-md-4.col-sm-6.online {
+    height: 180px;
+    background:  url(img/features/f2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.col-lg-2.col-md-4.col-sm-6.smaeMoney {
+    height: 180px;
+    background:  url(img/features/f3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.col-lg-2.col-md-4.col-sm-6.Prpmotions {
+    height: 180px;
+    background:  url(img/features/f4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.col-lg-2.col-md-4.col-sm-6.h-shoping {
+    height: 180px;
+    background:  url(img/features/f5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.col-lg-2.col-md-4.col-sm-6.support {
+    height: 180px;
+    background:  url(img/features/f6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+/*------product------*/
+
+
+span.brand {
+    padding: 5px;
+}
+
+span.product-name {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+span.ratting {
+    color: #ffc541;
+}
+
+span.prize {
+    margin-top: 6px;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+a.buy-icon {
+    float: right;
+    width: 45px;
+    background: antiquewhite;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-left: 206px;
+    margin-top: -37px;
+    margin-bottom: 13px;
+    transition: 0.8s;
+}
+
+a.buy-icon:hover {
+    background: blue;
+    color: #fb5200;
+    cursor: pointer;
+}
+
+.col-lg-3.col-md-6.col-sm-10.card {
+    box-shadow: 5px 5px #dfd5d5;
+    border-radius: 8px;
+}
+
+img.cad-img {
+    box-shadow: 5px 5px 5px 2px antiquewhite;
+}
+
+.col-lg-3.col-md-6.col-sm-10.card:hover {
+    cursor: pointer;
+}
+
+.secend-product{
+    margin-top: 30px;
+}
+
+/*----discount----*/
+#discount{
+    background: url(img/banner/b2.jpg);
+    width: 100%;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.discount span {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.discount h3 {
+    font-size: 38px;
+}
+
+a.btn.dis-btn {
+    color: black;
+    background: wheat;
+    margin: 13px 0px;
+    transition: .8s;
+}
+
+a.btn.dis-btn:hover {
+    color: #fb5200;
+    background: blue;
+}
+
+.discount p {
+    width: 40%;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/*------another discount-----*/
+
+.col-lg-6.col-md-6.col-sm-10.buy-one {
+    background: url(img/banner/b16.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.col-lg-6.col-md-6.col-sm-10.get-one {
+    background: url(img/banner/b10.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+a.btn.more-btn {
+    background: orange;
+    transition: .8s;
+}
+
+a.btn.more-btn:hover {
+    background: yellow;
+}
+
+a.btn.clc-btn {
+    background: black;
+    color: white;
+    transition: .8s;
+}
+
+a.btn.clc-btn:hover {
+    background: white;
+    color: black;
+}
+
+/*----session sale----*/
+.col-lg-4.col-md-4.col-sm-10.s-sale{
+    background: url(img/banner/b7.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(122, 9, 9);
+}
+
+.col-lg-4.col-md-4.col-sm-10.n-clc{
+    background: url(img/banner/b4.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(122, 9, 9);
+}
+
+.col-lg-4.col-md-4.col-sm-10.t-shart{
+    background: url(img/banner/b18.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(122, 9, 9);
+}
+
+
+/*---sing up--*/
+.sing-up{
+    background: #051E45;
+    color: white;
+}
+
+.details{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-box {
+    width: 300px;
+    background: antiquewhite;
+    height: 43px;
+    border-radius: 8px;
+}
+
+input#email-input {
+    height: 90%;
+    margin-top: 2px;
+    outline: none;
+    background: transparent;
+    width: 71%;
+    border: 2px dotted #fb5200;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input[type="button"] {
+    width: 27%;
+    height: 93%;
+    outline: none;
+    border: none;
+    background: blue;
+    border-radius: 8px;
+    border-bottom: 2px dotted green;
+}
+
+
+/*----foooter----*/
+.col-lg-4.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col-lg-4.contact span {
+    margin-top: 9px;
+}
+
+.links a {
+    font-size: 25px;
+    color: blue;
+    padding: 5px;
+    transition: .8s;
+}
+
+.links a:hover {
+    cursor: pointer;
+    color: #fb5200;
+}
+
+.links {
+    margin-top: 11px;
+}
+
+button.btn.google-paly {
+    background: url(img/pay/play.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 91px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+button.btn.app-store {
+    background: url(img/pay/app.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 91px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+
+.payment{
+    background: url(img/pay/pay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 70px;
+    border: 3px solid black;
+    margin-top: 25px;
+}
+
+.sing-link{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+/*----pop-up-----*/
+img.main-img {
+    width: 100%;
+    height: 78%;
+    border: 2px dotted blue;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px 6px #f1e9e9;
+}
+
+.images{
+    margin-top: 10px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.one-img {
+    width: 125px;
+    height: 120px;
+    float: left;
+    margin-top: 10px;
+    border: 2px solid;
+    margin-right: 8px;
+    box-shadow: 0px 1px 0px 6px #f1e9e9;
+}
+
+.two-img {
+ 
+    width: 125px;
+    height: 120px;
+    float: left;
+    margin-top: 10px;
+    border: 2px solid;
+    margin-right: 8px;
+    box-shadow: 0px 1px 0px 6px #f1e9e9;
+}
+
+.tree-img {
+ 
+    width: 125px;
+    height: 120px;
+    float: left;
+    margin-top: 10px;
+    border: 2px solid;
+    margin-right: 8px;
+    box-shadow: 0px 1px 0px 6px #f1e9e9;
+}
+
+.four-img {
+ 
+    width: 125px;
+    height: 120px;
+    float: left;
+    margin-top: 10px;
+    border: 2px solid;
+    margin-right: 8px;
+    box-shadow: 0px 1px 0px 6px #f1e9e9;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    ul.navbar-nav {
+        margin-left: 160px;
+    }
+    
+    div#navbarNav {
+        background: #d6daf3;
+    }
+
+    a.btn.fresh {
+        margin-left: 109px;
+    }
+
+    a.btn.online {
+        margin-left: 109px;
+    }
+
+    a.btn.smaeMoney {
+        margin-left: 109px;
+    }
+
+    a.btn.Prpmotions {
+        margin-left: 109px;
+    }
+
+    a.btn.h-shoping {
+        margin-left: 109px;
+    }
+
+    a.btn.support {
+        margin-left: 120px;
+    }
+
+
+    /*-----pop up page----*/
+    .one-img {
+        width: 100px;
+        height: 95px;
+    }
+    
+    .two-img {
+        width: 100px;
+        height: 95px;
+    }
+    
+    .tree-img {
+        width: 100px;
+        height: 95px;
+    }
+    
+    .four-img {   
+        width: 100px;
+        height: 95px;
+    }
+    
+}
